@@ -423,3 +423,8 @@ margin-top: 80px;
 .footer-container {
     justify-items: center;
 }
+.footer-img{
+display: flex;
+list-style: none;
+gap: 10px;
+}
