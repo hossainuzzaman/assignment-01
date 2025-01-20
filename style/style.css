@@ -1,0 +1,402 @@
+/* font style */
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.body {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+/* bangladesh color */
+.bang {
+    color: green;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.la {
+    color: red;
+}
+
+.btn-sing-in {
+    color: #006A50;
+    width: 116px;
+    height: 52px;
+    border: 1px solid;
+
+    border-radius: 8px;
+    font-weight: semibold;
+    font-size: 18px;
+
+}
+
+.bg {
+    background: #F5F5F5;
+}
+
+.sbg {
+    background-color: #C6E4D6;
+
+}
+
+/* navbar */
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+/* banner style */
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    padding: 117px 60px;
+    border-radius: 24px;
+}
+
+.tittle {
+    font-size: 24px;
+    font-weight: medium;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+
+.tittle-description {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+/* btn */
+.Explore {
+    width: 270px;
+    height: 56px;
+    background: #006A50;
+    font-size: 17px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.hero {
+    max-width: 475px;
+}
+
+.Pillars-tittle {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+/* pillars style */
+.pillars-container {
+    display: flex;
+
+    gap: 24px;
+
+}
+
+.pillars {
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+/* vision bg */
+.blue {
+    background-color: rgba(84, 144, 245, 0.2);
+
+}
+
+.btn-bg-b {
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.green {
+    background-color: #C6E4D6;
+}
+
+.btn-bg-g {
+    background-color: #09A15C;
+}
+
+.yollow {
+    background-color: #F7EBCF;
+}
+
+.btn-bg-y {
+    background-color: #FFC239;
+
+}
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.vision {
+    padding: 32px;
+    border-radius: 16px;
+
+}
+
+.btn-more {
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+
+}
+
+.dr-yunus {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    width: 1280px;
+
+    background-color: white;
+    border-radius: 16px;
+    max-width: 100%;
+}
+
+.tbbttn {
+    width: 152px;
+    height: 44px;
+    background-color: rgba(9, 161, 92, 0.15);
+    border-radius: 4px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 32px;
+    background: white;
+    padding: 24px;
+
+}
+
+.news-pic {
+    width: 408px;
+
+    border-radius: 24px;
+}
+
+.read-more {
+    width: 139px;
+    height: 48px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.donate {
+    text-align: center;
+}
+
+.bnt-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: none;
+    gap: 30px;
+    
+}
+
+.taka-btn{
+    text-align: center;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: white;
+    width: 240px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.taka-btn:hover {
+    background-color: #C6E4D6;
+}
+
+.tittle-news {
+    font-size: 40px;
+}
+
+.donate-form-btn-container {
+   
+    text-align: center;
+}
+
+#dform {
+    width: 1032px;
+    height: 64px;
+
+    text-align: center;
+}
+
+.btn-container {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: #09A15C;
+    color: white;
+    border-radius: 8px;
+    border: none;
+
+}
+.subscribe-news-container{
+    text-align: center;
+    padding: 60px 110px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    width: 850px;
+    margin: 80px auto;
+    justify-content: center;
+}
+.subscribe-news-btn{
+    margin: 30px;
+  display: flex;
+gap: none;
+justify-content: center;
+text-align: center;
+}
+#mailbar{
+    width: 600px;
+    height: 50px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px 30px;
+    
+}
+#sbtn{
+    width: 150px;
+    height: 60px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    font: weight 600px;
+}
+.footer-container{
+    justify-items: center;
+}
