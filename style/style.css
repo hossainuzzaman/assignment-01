@@ -198,14 +198,15 @@ nav ul li {
 .Pillars-tittle {
     font-size: 40px;
     font-weight: bold;
+    margin-top: 80px;
 
 }
 
 /* pillars style */
 .pillars-container {
     display: flex;
-
     gap: 24px;
+    margin-top: 80px;
 
 }
 
@@ -219,7 +220,7 @@ nav ul li {
 /* vision bg */
 .blue {
     background-color: rgba(84, 144, 245, 0.2);
-
+margin-top: 80px;
 }
 
 .btn-bg-b {
@@ -228,6 +229,7 @@ nav ul li {
 
 .green {
     background-color: #C6E4D6;
+    margin-top: 80px;
 }
 
 .btn-bg-g {
@@ -236,6 +238,7 @@ nav ul li {
 
 .yollow {
     background-color: #F7EBCF;
+    margin-top: 80px;
 }
 
 .btn-bg-y {
@@ -246,12 +249,12 @@ nav ul li {
 .vision-container {
     display: flex;
     gap: 24px;
-
 }
 
 .vision {
     padding: 32px;
     border-radius: 16px;
+    margin-top: 40px;
 
 }
 
@@ -266,6 +269,7 @@ nav ul li {
 }
 
 .dr-yunus {
+    margin-top: 80px;
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     width: 1280px;
@@ -273,6 +277,7 @@ nav ul li {
     background-color: white;
     border-radius: 16px;
     max-width: 100%;
+    
 }
 
 .tbbttn {
@@ -283,12 +288,14 @@ nav ul li {
 }
 
 .news-container {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     text-align: left;
     gap: 32px;
     background: white;
     padding: 24px;
+    border-radius: 18px;
 
 }
 
@@ -306,29 +313,34 @@ nav ul li {
     border: none;
     border-radius: 8px;
 }
+
 .donate {
     text-align: center;
+    margin-top: 80px;
 }
 
-.bnt-ul{
+.bnt-ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     border: none;
     gap: 30px;
-    
+    text-align: center;
+
+
 }
 
-.taka-btn{
-    text-align: center;
+.taka-btn {
+
     border-radius: 16px;
     padding: 20px;
     background-color: white;
     width: 240px;
-    height: 100px;
+    height: 50px;
     font-size: 30px;
     font-weight: bold;
     transition: 0.3s;
+    text-align: center;
 }
 
 .taka-btn:hover {
@@ -337,31 +349,37 @@ nav ul li {
 
 .tittle-news {
     font-size: 40px;
+    margin-top: 80px;
 }
 
 .donate-form-btn-container {
-   
+
     text-align: center;
+    margin-top: 80px;
 }
 
 #dform {
     width: 1032px;
     height: 64px;
-
+   
     text-align: center;
+   
 }
 
 .btn-container {
     text-align: center;
-    width: 150px;
+    width: 130px;
     height: 50px;
     background-color: #09A15C;
     color: white;
     border-radius: 8px;
     border: none;
+    padding-top: 10px;
+    margin-top: 20px;
 
 }
-.subscribe-news-container{
+
+.subscribe-news-container {
     text-align: center;
     padding: 60px 110px;
     background-color: #C6E4D6;
@@ -369,23 +387,27 @@ nav ul li {
     width: 850px;
     margin: 80px auto;
     justify-content: center;
+    
 }
-.subscribe-news-btn{
+
+.subscribe-news-btn {
     margin: 30px;
-  display: flex;
-gap: none;
-justify-content: center;
-text-align: center;
+    display: flex;
+    gap: none;
+    justify-content: center;
+    text-align: center;
 }
-#mailbar{
+
+#mailbar {
     width: 600px;
     height: 50px;
     border: none;
     border-radius: 10px 0px 0px 10px;
     padding: 5px 30px;
-    
+
 }
-#sbtn{
+
+#sbtn {
     width: 150px;
     height: 60px;
     padding: 5px 30px;
@@ -397,6 +419,7 @@ text-align: center;
     font-size: 18px;
     font: weight 600px;
 }
-.footer-container{
+
+.footer-container {
     justify-items: center;
 }
