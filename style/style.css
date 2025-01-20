@@ -361,7 +361,7 @@ margin-top: 80px;
 #dform {
     width: 1032px;
     height: 64px;
-   
+   border: none;
     text-align: center;
    
 }
